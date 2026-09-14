@@ -1,11 +1,11 @@
 const projectsData = [
   {
     "name": "Hexapod",
-    "year": 2025,
+    "year": 2026,
     "status": "in development",
     "desc": "cool 6-legged robot",
     "lang": ["arduino (c++), unity (c#), inventor"],
-    "links": ["https://github.com/longestcow/hexapod"]
+    "links": ["https://github.com/iyerom/hexapod"]
   },
   {
     "name": "pill dispenser",
@@ -21,7 +21,7 @@ const projectsData = [
     "status": "finished",
     "desc": "made (again) for SaskPolytech robot rumble",
     "lang": ["arduino (c++), inventor"],
-    "links": ["https://github.com/longestcow/sumobotV2"]
+    "links": ["https://github.com/iyerom/sumobotV2"]
   },
   {
     "name": "electric screwdriver",
@@ -29,7 +29,7 @@ const projectsData = [
     "status": "finished",
     "desc": "side quest while making the strandbeest",
     "lang": ["inventor"],
-    "links": ["https://github.com/longestcow/screwdriver"]
+    "links": ["https://github.com/iyerom/screwdriver"]
 
   },
   {
@@ -38,7 +38,7 @@ const projectsData = [
     "status": "finished",
     "desc": "life-like patterns emerging from particles",
     "lang": ["unity (c#)"],
-    "links": ["https://github.com/longestcow/particleLife"]
+    "links": ["https://github.com/iyerom/particleLife"]
   },
   {
     "name": "strandbeest",
@@ -46,7 +46,7 @@ const projectsData = [
     "status": "kinda finished",
     "desc": "organic looking linkage mechanism",
     "lang": ["inventor"],
-    "links": ["https://github.com/longestcow/strandbeest"]
+    "links": ["https://github.com/iyerom/strandbeest"]
   },
   {
     "name": "scribrawl",
@@ -54,7 +54,7 @@ const projectsData = [
     "status": "prototype",
     "desc": "online pvp game about scribbling and brawling",
     "lang": ["unity (c#)"],
-    "links": ["https://github.com/longestcow/scribrawl/"]
+    "links": ["https://github.com/iyerom/scribrawl/"]
   },
   {
     "name": "Lab-Rat",
@@ -78,7 +78,7 @@ const projectsData = [
     "status": "finished",
     "desc": "computer vision controlled robotic hand",
     "lang": ["arduino (c++)", "python"],
-    "links": ["https://github.com/longestcow/roboticHand"]
+    "links": ["https://github.com/iyerom/roboticHand"]
   },
   {
     "name": "Outer Wilds",
@@ -86,7 +86,7 @@ const projectsData = [
     "status": "finished",
     "desc": "3d physics n-body simulation",
     "lang": ["p5js"],
-    "links": ["https://longestcow.github.io/OuterWilds"]
+    "links": ["https://iyerom.github.io/OuterWilds"]
   },
   {
     "name": "Polemos",
@@ -102,7 +102,7 @@ const projectsData = [
     "status": "finished",
     "desc": "cellular automata + new dimension",
     "lang": ["p5js"],
-    "links": ["https://longestcow.github.io/3DGameOfLife/"]
+    "links": ["https://iyerom.github.io/3DGameOfLife/"]
   },
   {
     "name": "Sumobot",
@@ -110,7 +110,7 @@ const projectsData = [
     "status": "finished",
     "desc": "made for SaskPolytechnic robot rumble",
     "lang": ["arduino (c++), inventor"],
-    "links": ["https://github.com/longestcow/sumobot"]
+    "links": ["https://github.com/iyerom/sumobot"]
   },
   {
     "name": "WFC - Tubes",
@@ -118,7 +118,7 @@ const projectsData = [
     "status": "finished",
     "desc": "wave function collapse with tubes",
     "lang": ["p5js"],
-    "links": ["https://longestcow.github.io/WaveFunctionCollapse/WFCTubes/"]
+    "links": ["https://iyerom.github.io/WaveFunctionCollapse/WFCTubes/"]
   },
   {
     "name": "WFC - Islands",
@@ -126,7 +126,7 @@ const projectsData = [
     "status": "finished",
     "desc": "wave function collapse with islands",
     "lang": ["p5js"],
-    "links": ["https://longestcow.github.io/WaveFunctionCollapse/WFCIslands/"]
+    "links": ["https://iyerom.github.io/WaveFunctionCollapse/WFCIslands/"]
   },
   {
     "name": "Subterranaut",
@@ -142,7 +142,7 @@ const projectsData = [
     "status": "finished",
     "desc": "simulation of genetic evolution",
     "lang": ["java"],
-    "links": ["https://github.com/longestcow/Evolution"]
+    "links": ["https://github.com/iyerom/Evolution"]
   },
   {
     "name": "this site",
@@ -150,7 +150,7 @@ const projectsData = [
     "status": "finished",
     "desc": "literally this site",
     "lang": ["html", "js", "css"],
-    "links": ["https://longestcow.github.io/portfolio/"]
+    "links": ["https://iyerom.github.io/portfolio/"]
   },
   {
     "name": "connect4",
@@ -158,7 +158,7 @@ const projectsData = [
     "status": "finished",
     "desc": "its connect4 but you can't win",
     "lang": ["java"],
-    "links": ["https://github.com/longestcow/connect4"]
+    "links": ["https://github.com/iyerom/connect4"]
   },
   {
     "name": "MemesUploader",
@@ -166,7 +166,7 @@ const projectsData = [
     "status": "finished",
     "desc": "automating creation and upload of meme compilations",
     "lang": ["java"],
-    "links": ["https://github.com/longestcow/MemesUploader"]
+    "links": ["https://github.com/iyerom/MemesUploader"]
   },
   {
     "name": "titato",
@@ -174,7 +174,7 @@ const projectsData = [
     "status": "finished",
     "desc": "its tictactoe but you can't win",
     "lang": ["java", "unity (c#)"],
-    "links": ["https://github.com/longestcow/titato"]
+    "links": ["https://github.com/iyerom/titato"]
   },
   {
     "name": "platformer",
@@ -190,7 +190,7 @@ const projectsData = [
     "status": "demo available",
     "desc": "game inspried by smash",
     "lang": ["unity (c#)"],
-    "links": ["https://github.com/longestcow/platformFighter"]
+    "links": ["https://github.com/iyerom/platformFighter"]
   },
   {
     "name": "mirror reflection",
@@ -198,7 +198,7 @@ const projectsData = [
     "status": "finished",
     "desc": "light mirror collision simulation",
     "lang": ["java"],
-    "links": ["https://github.com/longestcow/MirrorReflection"]
+    "links": ["https://github.com/iyerom/MirrorReflection"]
   },
   {
     "name": "omogodot's GOL",
@@ -206,7 +206,7 @@ const projectsData = [
     "status": "finished",
     "desc": "cellular automata",
     "lang": ["java"],
-    "links": ["https://github.com/longestcow/GameOfLife"]
+    "links": ["https://github.com/iyerom/GameOfLife"]
   }
 ]
 
