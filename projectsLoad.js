@@ -4,7 +4,7 @@ const projectsData = [
     "year": 2026,
     "status": "in development",
     "desc": "cool 6-legged robot",
-    "lang": ["arduino (c++), unity (c#), inventor"],
+    "lang": ["arduino (c++)", "unity (c#)", "inventor"],
     "links": ["https://github.com/iyerom/hexapod"],
     "category": "robotics"
   },
@@ -13,7 +13,7 @@ const projectsData = [
     "year": 2026,
     "status": "finished",
     "desc": "apsc 171 final project",
-    "lang": ["arduino (c++), solidworks"],
+    "lang": ["arduino (c++)", "solidworks"],
     "links": ["https://youtu.be/NyqUwpdmJ5w?si=SAIx2Uo4ZxgKSwk7"],
     "category": "robotics"
   },
@@ -22,7 +22,7 @@ const projectsData = [
     "year": 2025,
     "status": "finished",
     "desc": "made (again) for SaskPolytech robot rumble",
-    "lang": ["arduino (c++), inventor"],
+    "lang": ["arduino (c++)", "inventor"],
     "links": ["https://github.com/iyerom/sumobotV2"],
     "category": "robotics"
   },
@@ -123,7 +123,7 @@ const projectsData = [
     "year": 2024,
     "status": "finished",
     "desc": "made for SaskPolytechnic robot rumble",
-    "lang": ["arduino (c++), inventor"],
+    "lang": ["arduino (c++)", "inventor"],
     "links": ["https://github.com/iyerom/sumobot"],
     "category": "robotics"
   },
