@@ -1,11 +1,12 @@
 const projectsData = [
-  {
+{
     "name": "Hexapod",
     "year": 2026,
     "status": "in development",
     "desc": "cool 6-legged robot",
     "lang": ["arduino (c++), unity (c#), inventor"],
-    "links": ["https://github.com/iyerom/hexapod"]
+    "links": ["https://github.com/iyerom/hexapod"],
+    "category": "robotics"
   },
   {
     "name": "pill dispenser",
@@ -13,7 +14,8 @@ const projectsData = [
     "status": "finished",
     "desc": "apsc 171 final project",
     "lang": ["arduino (c++), solidworks"],
-    "links": ["https://youtu.be/NyqUwpdmJ5w?si=SAIx2Uo4ZxgKSwk7"]
+    "links": ["https://youtu.be/NyqUwpdmJ5w?si=SAIx2Uo4ZxgKSwk7"],
+    "category": "robotics"
   },
   {
     "name": "sumobot v2",
@@ -21,7 +23,8 @@ const projectsData = [
     "status": "finished",
     "desc": "made (again) for SaskPolytech robot rumble",
     "lang": ["arduino (c++), inventor"],
-    "links": ["https://github.com/iyerom/sumobotV2"]
+    "links": ["https://github.com/iyerom/sumobotV2"],
+    "category": "robotics"
   },
   {
     "name": "electric screwdriver",
@@ -29,7 +32,8 @@ const projectsData = [
     "status": "finished",
     "desc": "side quest while making the strandbeest",
     "lang": ["inventor"],
-    "links": ["https://github.com/iyerom/screwdriver"]
+    "links": ["https://github.com/iyerom/screwdriver"],
+    "category": "robotics"
 
   },
   {
@@ -38,7 +42,8 @@ const projectsData = [
     "status": "finished",
     "desc": "life-like patterns emerging from particles",
     "lang": ["unity (c#)"],
-    "links": ["https://github.com/iyerom/particleLife"]
+    "links": ["https://github.com/iyerom/particleLife"],
+    "category": "simulations"
   },
   {
     "name": "strandbeest",
@@ -46,7 +51,8 @@ const projectsData = [
     "status": "kinda finished",
     "desc": "organic looking linkage mechanism",
     "lang": ["inventor"],
-    "links": ["https://github.com/iyerom/strandbeest"]
+    "links": ["https://github.com/iyerom/strandbeest"],
+    "category": "robotics"
   },
   {
     "name": "scribrawl",
@@ -54,7 +60,8 @@ const projectsData = [
     "status": "prototype",
     "desc": "online pvp game about scribbling and brawling",
     "lang": ["unity (c#)"],
-    "links": ["https://github.com/iyerom/scribrawl/"]
+    "links": ["https://github.com/iyerom/scribrawl/"],
+    "category": "games"
   },
   {
     "name": "Lab-Rat",
@@ -62,7 +69,9 @@ const projectsData = [
     "status": "finished",
     "desc": "made in 2 days for saskatoon game jam",
     "lang": ["unity (c#)"],
-    "links": ["https://long-cow.itch.io/lab-rat"]
+    "links": ["https://long-cow.itch.io/lab-rat"],
+    "category": "games"
+    
   },
   {
     "name": "Pop-purr",
@@ -70,7 +79,8 @@ const projectsData = [
     "status": "finished",
     "desc": "made in 2 days for WTFxIGDC jam",
     "lang": ["unity (c#)"],
-    "links": ["https://long-cow.itch.io/poppurr"]
+    "links": ["https://long-cow.itch.io/poppurr"],
+    "category": "games"
   },
   {
     "name": "Robotic Hand",
@@ -78,7 +88,8 @@ const projectsData = [
     "status": "finished",
     "desc": "computer vision controlled robotic hand",
     "lang": ["arduino (c++)", "python"],
-    "links": ["https://github.com/iyerom/roboticHand"]
+    "links": ["https://github.com/iyerom/roboticHand"],
+    "category": "robotics"
   },
   {
     "name": "Outer Wilds",
@@ -86,7 +97,8 @@ const projectsData = [
     "status": "finished",
     "desc": "3d physics n-body simulation",
     "lang": ["p5js"],
-    "links": ["https://iyerom.github.io/OuterWilds"]
+    "links": ["https://iyerom.github.io/OuterWilds"],
+    "category": "simulations"
   },
   {
     "name": "Polemos",
@@ -94,7 +106,8 @@ const projectsData = [
     "status": "demo available",
     "desc": "online multiplayer fighting game",
     "lang": ["unity (c#)"],
-    "links": ["https://long-cow.itch.io/polemos"]
+    "links": ["https://long-cow.itch.io/polemos"],
+    "category": "games"
   },
   {
     "name": "3D Cellular Automata",
@@ -102,15 +115,17 @@ const projectsData = [
     "status": "finished",
     "desc": "cellular automata + new dimension",
     "lang": ["p5js"],
-    "links": ["https://iyerom.github.io/3DGameOfLife/"]
+    "links": ["https://iyerom.github.io/3DGameOfLife/"],
+    "category": "simulations"
   },
   {
-    "name": "Sumobot",
+    "name": "sumobot v1",
     "year": 2024,
     "status": "finished",
     "desc": "made for SaskPolytechnic robot rumble",
     "lang": ["arduino (c++), inventor"],
-    "links": ["https://github.com/iyerom/sumobot"]
+    "links": ["https://github.com/iyerom/sumobot"],
+    "category": "robotics"
   },
   {
     "name": "WFC - Tubes",
@@ -118,7 +133,8 @@ const projectsData = [
     "status": "finished",
     "desc": "wave function collapse with tubes",
     "lang": ["p5js"],
-    "links": ["https://iyerom.github.io/WaveFunctionCollapse/WFCTubes/"]
+    "links": ["https://iyerom.github.io/WaveFunctionCollapse/WFCTubes/"],
+    "category": "simulations"
   },
   {
     "name": "WFC - Islands",
@@ -126,7 +142,8 @@ const projectsData = [
     "status": "finished",
     "desc": "wave function collapse with islands",
     "lang": ["p5js"],
-    "links": ["https://iyerom.github.io/WaveFunctionCollapse/WFCIslands/"]
+    "links": ["https://iyerom.github.io/WaveFunctionCollapse/WFCIslands/"],
+    "category": "simulations"
   },
   {
     "name": "Subterranaut",
@@ -134,7 +151,8 @@ const projectsData = [
     "status": "finished",
     "desc": "made in 3 days for Jame Gam #34",
     "lang": ["unity (c#)"],
-    "links": ["https://long-cow.itch.io/subterranaut"]
+    "links": ["https://long-cow.itch.io/subterranaut"],
+    "category": "games"
   },
   {
     "name": "evolution",
@@ -142,7 +160,8 @@ const projectsData = [
     "status": "finished",
     "desc": "simulation of genetic evolution",
     "lang": ["java"],
-    "links": ["https://github.com/iyerom/Evolution"]
+    "links": ["https://github.com/iyerom/Evolution"],
+    "category": "simulations"
   },
   {
     "name": "this site",
@@ -150,7 +169,8 @@ const projectsData = [
     "status": "finished",
     "desc": "literally this site",
     "lang": ["html", "js", "css"],
-    "links": ["https://iyerom.github.io/portfolio/"]
+    "links": ["https://iyerom.github.io/portfolio/"],
+    "category": "other"
   },
   {
     "name": "connect4",
@@ -158,7 +178,8 @@ const projectsData = [
     "status": "finished",
     "desc": "its connect4 but you can't win",
     "lang": ["java"],
-    "links": ["https://github.com/iyerom/connect4"]
+    "links": ["https://github.com/iyerom/connect4"],
+    "category": "games"
   },
   {
     "name": "MemesUploader",
@@ -166,7 +187,8 @@ const projectsData = [
     "status": "finished",
     "desc": "automating creation and upload of meme compilations",
     "lang": ["java"],
-    "links": ["https://github.com/iyerom/MemesUploader"]
+    "links": ["https://github.com/iyerom/MemesUploader"],
+    "category": "other"
   },
   {
     "name": "titato",
@@ -174,7 +196,8 @@ const projectsData = [
     "status": "finished",
     "desc": "its tictactoe but you can't win",
     "lang": ["java", "unity (c#)"],
-    "links": ["https://github.com/iyerom/titato"]
+    "links": ["https://github.com/iyerom/titato"],
+    "category": "games"
   },
   {
     "name": "platformer",
@@ -182,7 +205,8 @@ const projectsData = [
     "status": "demo available",
     "desc": "first major game dev project",
     "lang": ["unity (c#)"],
-    "links": ["https://long-cow.itch.io/platformer"]
+    "links": ["https://long-cow.itch.io/platformer"],
+    "category": "games"
   },
   {
     "name": "platform fighter",
@@ -190,7 +214,8 @@ const projectsData = [
     "status": "demo available",
     "desc": "game inspried by smash",
     "lang": ["unity (c#)"],
-    "links": ["https://github.com/iyerom/platformFighter"]
+    "links": ["https://github.com/iyerom/platformFighter"],
+    "category": "games"
   },
   {
     "name": "mirror reflection",
@@ -198,7 +223,8 @@ const projectsData = [
     "status": "finished",
     "desc": "light mirror collision simulation",
     "lang": ["java"],
-    "links": ["https://github.com/iyerom/MirrorReflection"]
+    "links": ["https://github.com/iyerom/MirrorReflection"],
+    "category": "simulations"
   },
   {
     "name": "omogodot's GOL",
@@ -206,16 +232,40 @@ const projectsData = [
     "status": "finished",
     "desc": "cellular automata",
     "lang": ["java"],
-    "links": ["https://github.com/iyerom/GameOfLife"]
+    "links": ["https://github.com/iyerom/GameOfLife"],
+    "category": "simulations"
   }
 ]
 
-addProjects = function() {
+const CATEGORIES = ["robotics", "simulations", "games", "other"];
+let currentCategory = CATEGORIES[0];
+
+
+function buildCategoryTabs() {
+  const tabsContainer = document.getElementById("categoryTabs");
+  tabsContainer.innerHTML = "";
+  CATEGORIES.forEach(function (cat) {
+    const tab = createELM("div", "categoryTab" + (cat === currentCategory ? " active" : ""), "", cat);
+    tab.onclick = function () {
+      currentCategory = cat;
+      buildCategoryTabs();
+      renderProjects();
+    };
+    tabsContainer.appendChild(tab);
+  });
+}
+
+function renderProjects() {
   var container = document.getElementById("cardsHolder");
-  for (var i = 0; i < projectsData.length; i++) {
-    let projInfo = projectsData[i];
-    var mainCard = document.createElement("div");
+  container.innerHTML = "";
+  const filtered = projectsData.filter(function (p) { return p.category === currentCategory; });
+
+  for (var i = 0; i < filtered.length; i++) {
+    let projInfo = filtered[i];
+    var mainCard = document.createElement("a");
     mainCard.className = 'card mainCard';
+    mainCard.href = projInfo["links"][0];
+    mainCard.target = "_blank";
     var cardBody = document.createElement("div");
     cardBody.className = 'card-body';
     cardBody.style="padding: 0.85vw;"
@@ -223,8 +273,6 @@ addProjects = function() {
 
     var title = createELM("p", "card-title cardComp", "margin-bottom:0.8vw; font-size:0.85vw", "");
     var titleLink = createELM("a", "pLink", "", projInfo["name"]);
-    titleLink.href = projInfo["links"][0];
-    titleLink.target = "_blank";
     title.appendChild(titleLink);
     cardBody.appendChild(title);
 
@@ -241,21 +289,23 @@ addProjects = function() {
       curText += projInfo["lang"][j];
     }
 
-    var langs = createELM("p", "card-text cardComp", "font-size:0.65vw;color:#FE4773", curText);
-
+    var langs = createELM("p", "card-text cardComp langsBottom", "font-size:0.65vw;color:#FE4773", curText);
     cardBody.appendChild(langs);
 
     container.appendChild(mainCard);
-    console.log(projInfo["name"] + ": " + projInfo["year"] + " - " + projInfo["status"] + ", '" + projInfo["desc"] + "', " + projInfo["lang"] + ", " + projInfo["links"]);
 
   }
 }
 
+function addProjects() {
+  buildCategoryTabs();
+  renderProjects();
+}
+
 function createELM(type, classN, style, inner) {
-  var newELM = document.createElement(type);
+  const newELM = document.createElement(type);
   newELM.className = classN;
   newELM.style = style;
   newELM.innerHTML = inner;
-
   return newELM;
 }

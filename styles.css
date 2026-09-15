@@ -27,13 +27,14 @@
   
   .info {
     position: absolute;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     color: white;
     font-weight: 800;
     font-size: 1.3vw;
     line-height: 1.8;
-    top: 42.5%;
+    top: 40%;
     left: 50%;
+    width: 60%;
   }
   
   .big3 {
@@ -152,13 +153,15 @@
     transform: translate(-50%, -50%);
     font-size: 2vw;
     font-weight: bold;
+    display: flex;
+    align-items: center;
   }
   
   .logo {
     margin-right: 0.5vw;
     position: relative;
     width:2vw;
-
+    
   }
   
   
@@ -172,7 +175,7 @@
     width:3vw;
   }
   
-  
+
   /* vietnamese */
   @font-face {
     font-family: 'Inconsolata';
@@ -258,45 +261,46 @@
     /*direct descendant > */
     margin: 1vw;
   }
-  
-  #discord {
-    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
+  /*change original color of icons to white*/
+  #email {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(95%) contrast(91%);
     transition: 0.15s ease-out;
     
   }
   
-  #discord:hover {
-    filter: brightness(0) saturate(100%) invert(35%) sepia(42%) saturate(3646%) hue-rotate(224deg) brightness(99%) contrast(92%);
-  }
+  #email:hover {
+  filter: brightness(0) saturate(100%) invert(69%) sepia(31%) saturate(5505%) hue-rotate(75deg) brightness(106%) contrast(77%);  }
   
-  #twitter {
-    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
+  #linkedin {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(95%) contrast(91%);
     transition: 0.15s ease-out;
   }
   
-  #twitter:hover {
+  #linkedin:hover {
     filter: brightness(0) saturate(100%) invert(66%) sepia(55%) saturate(5298%) hue-rotate(176deg) brightness(97%) contrast(96%);
   }
   
   #instaTop {
     position: relative;
-    opacity: 0;
+    filter: brightness(0) invert(1);
     transition: 0.125s ease-out;
+    opacity: 1;
   }
   
   #instaTop:hover {
+    filter: none;
     opacity: 1;
   }
   
   #instaBot {
     z-index: -1;
     position: absolute;
-    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(95%) contrast(91%);
     top: -0.6vw;
   }
   
   #itch {
-    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(95%) contrast(91%);
     transition: 0.125s ease-out;
   }
   
@@ -305,7 +309,7 @@
   }
 
   #github {
-    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(77%) contrast(91%);
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(3274%) hue-rotate(165deg) brightness(95%) contrast(91%);
     transition: 0.125s ease-out;
   }
   
@@ -333,16 +337,66 @@
 
   #cardsHolder {
     position: absolute;
-    top: 35%;
-    transform: translate(-50%, 0);
+    top: 50%;
     left: 50%;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 48vw;
+    padding-bottom: 4vw;
+
   }
   
   .mainCard:hover {
     border-color: #FE4773;
   }
+
+#categoryTabs {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.categoryTab {
+  display: inline-block;
+  padding: 0.4vw 1vw;
+  margin: 0 0.3vw;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9vw;
+  border-bottom: 2px solid transparent;
+  transition: 0.15s ease-out;
+}
+
+.categoryTab:hover {
+  color: #FE4773;
+}
+
+.categoryTab.active {
+  color: #FE4773;
+  border-bottom: 2px solid #FE4773;
+  font-weight: bold;
+}
+
+a.mainCard {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.langsBottom {
+  margin-top: auto;
+  margin-bottom: 0.3vw; 
+}
   
   ::-webkit-scrollbar {
     width: 15px;
