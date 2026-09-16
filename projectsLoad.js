@@ -4,8 +4,53 @@ const projectsData = [
     "year": 2026,
     "status": "in development",
     "desc": "cool 6-legged robot",
-    "lang": ["arduino (c++)", "unity (c#)", "inventor"],
+    "lang": ["esp32 (c++)", "unity (c#)", "inventor"],
     "links": ["https://github.com/iyerom/hexapod"],
+    "category": "robotics"
+  },
+    {
+    "name": "10SecondsTillIDie",
+    "year": 2026,
+    "status": "finished",
+    "desc": "game about trying not to die in 10 seconds",
+    "lang": ["unity (c#)"],
+    "links": ["https://ignvoiding.itch.io/10-seconds-till-i-die"],
+    "category": "games"
+  },
+  {
+    "name": "Loop-Inc",
+    "year": 2025,
+    "status": "finished",
+    "desc": "gmtk game jam 2025",
+    "lang": ["unity (c#)"],
+    "links": ["https://rpc29.itch.io/loop-inc"],
+    "category": "games"
+  },
+  {
+    "name": "esp32 watch",
+    "year": 2026,
+    "status": "in development",
+    "desc": "IoT smartwatch",
+    "lang": ["esp32 (c++)", "inventor"],
+    "links": ["https://github.com/iyerom/watch"],
+    "category": "robotics"
+  },
+  {
+    "name": "drain filter",
+    "year": 2026,
+    "status": "finished",
+    "desc": "apsc 169 drain filter simulation",
+    "lang": ["p5js"],
+    "links": ["https://github.com/iyerom/drainFilterSimulation"],
+    "category": "simulations"
+  },
+  {
+    "name": "GridCast",
+    "year": 2026,
+    "status": "finished",
+    "desc": "IoT controllable pixel grid",
+    "lang": ["esp32 (c++)"],
+    "links": ["https://github.com/iyerom/gridcast"],
     "category": "robotics"
   },
   {
