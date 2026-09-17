@@ -45,12 +45,12 @@ const projectsData = [
     "category": "simulations"
   },
   {
-    "name": "GridCast",
+    "name": "pixelPost",
     "year": 2026,
     "status": "finished",
     "desc": "IoT controllable pixel grid",
     "lang": ["esp32 (c++)"],
-    "links": ["https://github.com/iyerom/gridcast"],
+    "links": ["https://github.com/iyerom/pixelpost"],
     "category": "robotics"
   },
   {
@@ -317,7 +317,7 @@ function renderProjects() {
     mainCard.appendChild(cardBody);
 
     var title = createELM("p", "card-title cardComp", "margin-bottom:0.8vw; font-size:0.85vw", "");
-    var titleLink = createELM("a", "pLink", "", projInfo["name"]);
+    var titleLink = createELM("a", "pLink", projInfo["links"][0], projInfo["name"]);
     title.appendChild(titleLink);
     cardBody.appendChild(title);
 
