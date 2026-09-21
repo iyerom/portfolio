@@ -8,7 +8,34 @@ const projectsData = [
     "links": ["https://github.com/iyerom/hexapod"],
     "category": "robotics"
   },
-    {
+  {
+    "name": "woodworking",
+    "year": "20xx",
+    "status": "ongoing",
+    "desc": "a collection of my wood-working projects",
+    "lang": ["miter-saw", "table-saw", "router", "drill press", "hand tools"],
+    "links": ["https://www.are.na/om-iyer/woodworking-m4fu_emxawc"],
+    "category": "other"
+  },
+  {
+    "name": "woodcarving",
+    "year": "20xx",
+    "status": "ongoing",
+    "desc": "a collection of my wood-carving projects",
+    "lang": ["whittling knives", "..wood"],
+    "links": ["https://www.are.na/om-iyer/woodcarving-copqyzzcoj4"],
+    "category": "other"
+  },
+  {
+    "name": "piano progress",
+    "year": "20xx",
+    "status": "ongoing",
+    "desc": "a log of my piano learning journey",
+    "lang": ["..piano"],
+    "links": ["https://www.are.na/om-iyer/piano-log"],
+    "category": "other"
+  },
+  {
     "name": "10SecondsTillIDie",
     "year": 2026,
     "status": "finished",
