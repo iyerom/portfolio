@@ -22,7 +22,7 @@ const projectsData = [
     "year": "20xx",
     "status": "ongoing",
     "desc": "a collection of my wood-carving projects",
-    "lang": ["whittling knives", "..wood"],
+    "lang": ["whittling knives"],
     "links": ["https://www.are.na/om-iyer/woodcarving-copqyzzcoj4"],
     "category": "other"
   },
