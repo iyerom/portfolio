@@ -54,12 +54,12 @@ const projectsData = [
     "category": "games"
   },
   {
-    "name": "esp32 watch",
+    "name": "speaker",
     "year": 2026,
     "status": "in development",
-    "desc": "IoT smartwatch",
-    "lang": ["esp32 (c++)", "inventor"],
-    "links": ["https://github.com/iyerom/watch"],
+    "desc": "say stuff out loud to me",
+    "lang": ["esp32 (c++)"],
+    "links": ["https://github.com/iyerom/speaker"],
     "category": "robotics"
   },
   {
